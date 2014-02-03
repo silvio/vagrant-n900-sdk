@@ -1,0 +1,20 @@
+Index: x/maemo-sdk-install_5.0.sh
+===================================================================
+--- x.orig/maemo-sdk-install_5.0.sh
++++ x/maemo-sdk-install_5.0.sh
+@@ -27,13 +27,13 @@ __rootstrap_suffix=tgz
+ # Target configuration for armel
+ __armel_toolchain=${__target_toolchain}-arm7
+ __armel_target=${__target_prefix}_ARMEL
+-__armel_devkits=perl:debian-etch:qemu:doctools:autotools-legacy:python-legacy:svn:git
++__armel_devkits=perl:debian-squeeze:qemu:doctools:autotools-legacy:python-legacy:svn:git
+ __armel_cputransp=qemu-arm-sb
+ 
+ # Target configuration for i386
+ __i386_toolchain=${__target_toolchain}-i486
+ __i386_target=${__target_prefix}_X86
+-__i386_devkits=perl:debian-etch:doctools:autotools-legacy:python-legacy:svn:git
++__i386_devkits=perl:debian-squeeze:doctools:autotools-legacy:python-legacy:svn:git
+ 
+ # Scratchbox 
+ __scratchbox_group=sbox

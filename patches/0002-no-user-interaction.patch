@@ -1,0 +1,13 @@
+Index: x/maemo-sdk-install_5.0.sh
+===================================================================
+--- x.orig/maemo-sdk-install_5.0.sh
++++ x/maemo-sdk-install_5.0.sh
+@@ -821,7 +821,7 @@ if has_sessions $__scratchbox ; then
+ fi
+ 
+ # Show the license before modifications
+-license
++# license
+ 
+ # Set the display
+ if [ -r $__sbhome/.bashrc ] && grep -q "DISPLAY"  $__sbhome/.bashrc ; then
