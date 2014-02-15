@@ -18,8 +18,8 @@ The bootstrap-script is based on code of [this][mwd]-page.
 
 ## usage
 
-You have only to do a <code>vagrant up --provision</code> in the directory of
-the repository.
+If you have a vagrant enabled environment, you have only to do a <code>vagrant
+up --provision</code> in the directory of the repository.
 
 The installation needs some time. After that you can connect to your vm with
 <code>vagrant ssh</code>.
