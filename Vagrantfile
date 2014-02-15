@@ -22,5 +22,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # end
 
   # boot strap
-  config.vm.provision :shell, :path => "bootstrap.sh"
+  config.vm.provision :shell, :path => "misc/bootstrap.sh"
 end
